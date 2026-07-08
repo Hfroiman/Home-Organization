@@ -80,7 +80,7 @@ const Login = () => {
     return (
         <div className="login-form">
             <h2>Iniciar sesión</h2>
-            <form onSubmit={/*ControlInicioSesion*/}>
+            <form /*onSubmit={/*ControlInicioSesion}*/>
                 <div className="form-group">
                     <label htmlFor="usuario">Usuario</label>
                     <input type="text" id="usuario" name="usuario" required />
@@ -92,8 +92,8 @@ const Login = () => {
                 </div>
 
                 <div className="form-links">
-                    <Link to="/RecuperarContraseña">¿Olvidaste tu contraseña?</Link>
-                    <Link to="/RecuperarUsuario">¿Olvidaste tu usuario?</Link>
+                    <Link /*to="/RecuperarContraseña"*/ >¿Olvidaste tu contraseña?</Link>
+                    <Link /*to="/RecuperarUsuario" */ >¿Olvidaste tu usuario?</Link>
                 </div>
 
                 <button type="submit" className="btn-login">Ingresar</button>
