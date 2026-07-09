@@ -16,8 +16,8 @@ const Login = () => {
         </div>
 
         <div className="form-links">
-          <a >¿Olvidaste tu contraseña?</a>
-          <a >¿Olvidaste tu usuario?</a>
+          <a>¿Olvidaste tu contraseña?</a>
+          <a>¿Olvidaste tu usuario?</a>
         </div>
 
         <button type="submit" className="btn-login">Ingresar</button>
