@@ -1,6 +1,6 @@
 import './navbar.css'
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <div className="navbar-body">
       <section className='navbar-title'>MI HOGAR</section>
@@ -19,7 +19,7 @@ const navbar = () => {
         <button>NOMBRE Y LOGO DEL USER</button>
       </section> 
     </div>
-  );
-};
+  )
+}
 
-export default navbar;
+export default Navbar

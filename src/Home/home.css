@@ -1,0 +1,41 @@
+.home-content {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 3fr 4fr 8fr;
+}
+
+.home-welcome {
+    background-color: rgb(209, 168, 168);
+    grid-column: span 2;
+}
+
+.home-notificaciones {
+    background-color: black;
+    grid-column: span 2;
+}
+
+.home-tareas-totales {
+    background-color: rgb(223, 183, 183);
+}
+
+.home-tareas-completadas {
+    background-color: rgb(143, 185, 63);
+}
+
+.home-tareas-pendientes {
+    background-color: rgb(10, 83, 71);
+}
+
+.home-tareas-racha {
+    background-color: rgb(71, 60, 60);
+}
+
+.home-tareas-recientes {
+    background-color: rgb(46, 24, 24);
+    grid-column: span 3;
+}
+
+.home-progreso {
+    height: 100px;
+    background-color: rgb(161, 24, 24);
+}

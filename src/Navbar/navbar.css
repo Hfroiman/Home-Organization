@@ -1,0 +1,16 @@
+.navbar-body{
+    width: 18%;
+    min-height: 98vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
