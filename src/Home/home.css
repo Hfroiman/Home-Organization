@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr;
     grid-template-rows: 3fr 4fr 8fr;
+    min-height: 98vh;
 }
 
 .home-welcome {
@@ -36,6 +37,12 @@
 }
 
 .home-progreso {
-    height: 100px;
     background-color: rgb(161, 24, 24);
 }
+
+/************************  HOME TAREAS ***********************************/
+
+.home-img{}
+.home-info{}
+
+/************************  HOME RECIENTES ***********************************/
