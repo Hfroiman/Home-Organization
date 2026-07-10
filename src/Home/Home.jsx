@@ -70,14 +70,13 @@ const Home = () => {
             </tr>
           </tbody>
         </table>
-
       </section>
+
       <section className='home-progreso'>
         <section className='home-progreso-title'>
           <h3>Progreso Familiar</h3>
         </section>
         <section className='home-progreso-cake'>
-
         </section>
         <section className='home-progreso-comments'>
           <p>Excelente trabajo en equipo 💪</p>
