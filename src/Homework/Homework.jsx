@@ -1,6 +1,6 @@
-import './Jobs.css'
+import './Homework.css'
 
-const Jobs = () => {
+const Homework = () => {
   return (
     <div>
         <section className="Jobs-header">
@@ -9,11 +9,18 @@ const Jobs = () => {
         </section>
 
         <section className="Jobs-btns">
-
+          <section className='jobs-btns-1'>
+            <button>Todas</button>
+            <button>Pendientes</button>
+            <button>Completadas</button>
+          </section>
+          <section className='jobs-btns-2'>
+            <button>Todas las personas</button>
+          </section>
         </section>
         
         <section className="Jobs-table">
-                    <table class="mi-tabla">
+        <table class="mi-tabla">
           <thead>
             <tr>
               <th>Tareas Rendientes</th>
@@ -39,4 +46,4 @@ const Jobs = () => {
   )
 }
 
-export default Jobs
+export default Homework
