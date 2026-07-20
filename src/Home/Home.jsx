@@ -58,27 +58,41 @@ const Home = () => {
       </section>
 
       <section className='home-tareas-recientes'>
-        <table className="mi-tabla">
-          <thead>
-            <tr>
-              <th>Tareas Rendientes</th>
-              <th>Usuarios</th>
-              <th>Estado</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Lavar platos</td>
-              <td>Carlos Pérez</td>
-              <td>Terminado</td>
-            </tr>
-            <tr>
-              <td>planchar</td>
-              <td>Ana Gómez</td>
-              <td>Pendiente</td>
-            </tr>
-          </tbody>
-        </table>
+        <section className='home-tareas-recientes-header'>
+          <h5>Tareas</h5>
+          <button>+ Nueva tarea</button>
+        </section>
+        <section className='home-tareas-recientes-filtros'>
+          <div className='home-tareas-recientes-filtros2'>
+            <button>Todas</button>
+            <button>Pendientes</button>
+            <button>Completadas</button>
+          </div>
+          <button>Todas las tareas</button>
+        </section>
+        <section className='home-tareas-recientes-body'>
+          <table className="mi-tabla">
+            <thead>
+              <tr>
+                <th>Tareas Rendientes</th>
+                <th>Usuarios</th>
+                <th>Estado</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Lavar platos</td>
+                <td>Carlos Pérez</td>
+                <td>Terminado</td>
+              </tr>
+              <tr>
+                <td>planchar</td>
+                <td>Ana Gómez</td>
+                <td>Pendiente</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
       </section>
 
       <section className='home-progreso'>
