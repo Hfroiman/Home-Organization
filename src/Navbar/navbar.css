@@ -13,17 +13,48 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
 
 .navbar-title{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    margin: 1rem;
 }
 .navbar-title-img{
-    height: 45px;
+    height: 2rem;
 }
 .navbar-title-h{
-    margin-left: 5%;
-    width: 12vh;
+    margin-left: 4%;
+    width: 18vh;
+}
+/*-------------btones ------------*/
+
+.btn-list{
+    width: 95%;
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: inherit;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.btn-list:hover,
+.btn-list:focus{
+    border-color: #4f46e5; /* Color del borde */
+    background-color: #4f46e5;
+    outline: none;
+}
+
+/*-------------logo y nombre user ------------*/
+.navbar-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.navbar-profile-img{
+    height: 3rem;
 }
