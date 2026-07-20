@@ -6,11 +6,11 @@ const Home = () => {
     <div className='home-content'>
       <section className='home-welcome'>
         <h2>!Bienvenido, LAUDAA¡ 👋</h2>
-        <h4>Resumen de tareas y actividades en casa</h4>
+        <h6>Resumen de tareas y actividades en casa</h6>
       </section>
 
       <section className='home-notificaciones'>
-        <img src="ss" alt="imagendenotificaciones" />
+        <img className='home-notificaciones-img' src="https://static.vecteezy.com/system/resources/thumbnails/001/505/138/small/notification-bell-icon-free-vector.jpg" alt="imagendenotificaciones" />
       </section>
 
       <section className='home-tareas-totales' id='home-tareas'>
@@ -18,8 +18,8 @@ const Home = () => {
           <img className='home-img-logo' src="https://w7.pngwing.com/pngs/648/943/png-transparent-instagram-logo-logo-instagram-computer-icons-camera-instagram-logo-text-trademark-magenta-thumbnail.png" alt="" />
         </section>
         <section className='home-info'>
-          <h3>Tareas totales</h3>
-          <p>24</p>
+          <h5>Tareas totales</h5>
+          <h3>24</h3>
           <p>Esta semana</p>
         </section>
       </section>
@@ -29,8 +29,8 @@ const Home = () => {
           <img className='home-img-logo' src="https://w7.pngwing.com/pngs/648/943/png-transparent-instagram-logo-logo-instagram-computer-icons-camera-instagram-logo-text-trademark-magenta-thumbnail.png" alt="" />
         </section>
         <section className='home-info'>
-          <h4>Completadas</h4>
-          <p>16</p>
+          <h5>Completadas</h5>
+          <h3>24</h3>
           <p>67% completado</p>
         </section>
       </section>
@@ -40,8 +40,8 @@ const Home = () => {
           <img className='home-img-logo' src="https://w7.pngwing.com/pngs/648/943/png-transparent-instagram-logo-logo-instagram-computer-icons-camera-instagram-logo-text-trademark-magenta-thumbnail.png" alt="" />
         </section>
         <section className='home-info'>
-          <h4>Pendientes</h4>
-          <p>5</p>
+          <h5>Pendientes</h5>
+          <h3>24</h3>
           <p>3% restante</p>
         </section>
       </section>
@@ -51,8 +51,8 @@ const Home = () => {
           <img className='home-img-logo' src="https://w7.pngwing.com/pngs/648/943/png-transparent-instagram-logo-logo-instagram-computer-icons-camera-instagram-logo-text-trademark-magenta-thumbnail.png" alt="" />
         </section>
         <section className='home-info'>
-          <h4>Racha familiar</h4>
-          <p>5 dias</p>
+          <h5>Racha familiar</h5>
+          <h3>24</h3>
           <p>sigue asi</p>
         </section>
       </section>
