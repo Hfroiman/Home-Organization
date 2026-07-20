@@ -1,28 +1,33 @@
 import './home.css'
+import Navbar from "../Navbar/Navbar.jsx"
 
 const Home = () => {
   return (
     <div className='home-content'>
       <section className='home-welcome'>
-        <h3>!Bienvenido, LAUDAA¡ 👋</h3>
-        <h6>Resumen de tareas y actividades en casa</h6>
+        <h2>!Bienvenido, LAUDAA¡ 👋</h2>
+        <h4>Resumen de tareas y actividades en casa</h4>
       </section>
 
       <section className='home-notificaciones'>
-        <a href=""><img src="" alt="imagendenotificaciones" /></a>
+        <img src="ss" alt="imagendenotificaciones" />
       </section>
 
-      <section className='home-tareas-totales'>
-        <section className='home-img'></section>
+      <section className='home-tareas-totales' id='home-tareas'>
+        <section className='home-img'>
+          <img className='home-img-logo' src="https://w7.pngwing.com/pngs/648/943/png-transparent-instagram-logo-logo-instagram-computer-icons-camera-instagram-logo-text-trademark-magenta-thumbnail.png" alt="" />
+        </section>
         <section className='home-info'>
-          <h4>Tareas totales</h4>
+          <h3>Tareas totales</h3>
           <p>24</p>
           <p>Esta semana</p>
         </section>
       </section>
 
-      <section className='home-tareas-completadas'>
-        <section className='home-img'></section>
+      <section className='home-tareas-completadas' id='home-tareas'>
+        <section className='home-img'>
+          <img className='home-img-logo' src="https://w7.pngwing.com/pngs/648/943/png-transparent-instagram-logo-logo-instagram-computer-icons-camera-instagram-logo-text-trademark-magenta-thumbnail.png" alt="" />
+        </section>
         <section className='home-info'>
           <h4>Completadas</h4>
           <p>16</p>
@@ -30,8 +35,10 @@ const Home = () => {
         </section>
       </section>
 
-      <section className='home-tareas-pendientes'>
-        <section className='home-img'></section>
+      <section className='home-tareas-pendientes' id='home-tareas'>
+        <section className='home-img'>
+          <img className='home-img-logo' src="https://w7.pngwing.com/pngs/648/943/png-transparent-instagram-logo-logo-instagram-computer-icons-camera-instagram-logo-text-trademark-magenta-thumbnail.png" alt="" />
+        </section>
         <section className='home-info'>
           <h4>Pendientes</h4>
           <p>5</p>
@@ -39,8 +46,10 @@ const Home = () => {
         </section>
       </section>
 
-      <section className='home-tareas-racha'>
-        <section className='home-img'></section>
+      <section className='home-tareas-racha' id='home-tareas'>
+        <section className='home-img'>
+          <img className='home-img-logo' src="https://w7.pngwing.com/pngs/648/943/png-transparent-instagram-logo-logo-instagram-computer-icons-camera-instagram-logo-text-trademark-magenta-thumbnail.png" alt="" />
+        </section>
         <section className='home-info'>
           <h4>Racha familiar</h4>
           <p>5 dias</p>
@@ -49,7 +58,7 @@ const Home = () => {
       </section>
 
       <section className='home-tareas-recientes'>
-        <table class="mi-tabla">
+        <table className="mi-tabla">
           <thead>
             <tr>
               <th>Tareas Rendientes</th>

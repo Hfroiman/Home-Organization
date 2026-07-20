@@ -1,6 +1,6 @@
 .navbar-body{
     width: 18%;
-    min-height: 98vh;
+    min-height: 97vh;
     background-color: aqua;
     display: flex;
     flex-direction: column;
@@ -13,4 +13,17 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.navbar-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar-title-img{
+    height: 45px;
+}
+.navbar-title-h{
+    margin-left: 5%;
+    width: 12vh;
 }

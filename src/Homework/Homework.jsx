@@ -20,7 +20,7 @@ const Homework = () => {
         </section>
         
         <section className="Jobs-table">
-        <table class="mi-tabla">
+        <table className="mi-tabla">
           <thead>
             <tr>
               <th>Tareas Rendientes</th>
