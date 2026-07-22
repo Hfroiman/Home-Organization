@@ -1,0 +1,23 @@
+.members {
+    width: 100%;
+}
+
+.members-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.members-header-title {}
+
+.members-header-btn {}
+
+/**--------------------  CARDS ----------------------------**/
+.members-group-cards{
+
+}
+
+.members-card{
+    border-color: black 12px;
+}

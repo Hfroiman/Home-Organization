@@ -1,7 +1,7 @@
 .navbar-body{
     width: 18%;
     min-height: 97vh;
-    background-color: rgba(21, 31, 116, 0.884);
+    background-color: rgb(30, 32, 51);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -24,6 +24,7 @@
 .navbar-title{
     display: flex;
     margin: 1rem;
+    color: rgb(255, 255, 255);
 }
 .navbar-title-img{
     height: 2rem;
@@ -43,6 +44,7 @@
     cursor: pointer;
     border-radius: 8px;
     transition: all 0.2s ease;
+    color: rgb(255, 255, 255);
 }
 
 .btn-list:hover,
@@ -61,4 +63,8 @@
 
 .navbar-profile-img{
     height: 3rem;
+}
+.navbar-profile-info{
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
 }

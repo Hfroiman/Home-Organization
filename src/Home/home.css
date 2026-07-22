@@ -45,31 +45,33 @@
 }
 
 .home-tareas-recientes {
-    background-color: rgb(145, 118, 118);
+    background-color: rgb(241, 238, 238);
     grid-column: span 3;
     border-radius: 10px;
 }
 
 .home-progreso {
-    background-color: rgb(161, 24, 24);
+    background-color: rgb(241, 238, 238);
     border-radius: 10px;
 }
+
 /*---------------NOTIFICACIONES -------------------/*/
-.home-notificaciones-img{
+.home-notificaciones-img {
     height: 2rem;
 }
 
 /************************  HOME TAREAS ***********************************/
-#home-tareas{
+#home-tareas {
     display: flex;
     flex-direction: row;
     padding: 3%;
 }
 
-.home-img-logo{
+.home-img-logo {
     height: 2rem;
 }
-.home-info{
+
+.home-info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -77,27 +79,85 @@
 }
 
 /************************  HOME RECIENTES ***********************************/
-.home-tareas-recientes{
+.home-tareas-recientes {
     display: flex;
     flex-direction: column;
 }
-.home-tareas-recientes-header{
+
+.home-tareas-recientes-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 1vh;
 }
-.home-tareas-recientes-filtros{
+
+.home-tareas-recientes-filtros {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 1vh;
 }
 
-.home-tareas-recientes-filtros2{
-
+.home-tareas-recientes-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vh;
 }
 
-.home-progreso-title{}
-.home-progreso-cake{}
-.home-progreso-comments{}
+.my-table {
+    width: 96%;
+}
+
+/*------------ PROGRESO -------------------*/
+.home-progreso{
+    max-height: fit-content;
+}
+
+.home-progreso-title{
+    margin: 3%;
+}
+
+.contenedor-progreso {
+    position: relative;
+    height: 26vh;
+  }
+
+  .circulo-svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg); /* Para que empiece desde arriba */
+  }
+
+  .fondo-circulo {
+    fill: none;
+    stroke: #e0e0e0;
+    stroke-width: 12;
+  }
+
+  .progreso-circulo {
+    fill: none;
+    stroke: #4caf50;
+    stroke-width: 12;
+    stroke-linecap: round;
+    /* La longitud del círculo es 2 * pi * r. Para radio 60 = 377 aprox. */
+    stroke-dasharray: 377;
+    stroke-dashoffset: 113; /* 113 significa que está al 70% lleno */
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
+
+  .porcentaje {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vh;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .home-progreso-comments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

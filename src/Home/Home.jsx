@@ -70,25 +70,26 @@ const Home = () => {
           </div>
           <button>Todas las tareas</button>
         </section>
-        <section className='home-tareas-recientes-body'>
-          <table className="mi-tabla">
-            <thead>
-              <tr>
-                <th>Tareas Rendientes</th>
-                <th>Usuarios</th>
-                <th>Estado</th>
-              </tr>
-            </thead>
+        <section className='home-tareas-recientes-table'>
+          <table className="table table-striped ">
             <tbody>
               <tr>
                 <td>Lavar platos</td>
                 <td>Carlos Pérez</td>
                 <td>Terminado</td>
+                <td>x</td>
               </tr>
               <tr>
                 <td>planchar</td>
                 <td>Ana Gómez</td>
                 <td>Pendiente</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>planchar</td>
+                <td>Ana Gómez</td>
+                <td>Pendiente</td>
+                <td>x</td>
               </tr>
             </tbody>
           </table>
@@ -99,8 +100,13 @@ const Home = () => {
         <section className='home-progreso-title'>
           <h3>Progreso Familiar</h3>
         </section>
-        <section className='home-progreso-cake'>
-        </section>
+        <div className="contenedor-progreso">
+          <svg className="circulo-svg" viewBox="0 0 150 150">
+            <circle className="fondo-circulo" cx="75" cy="75" r="60"></circle>
+            <circle className="progreso-circulo" cx="75" cy="75" r="60"></circle>
+          </svg>
+          <div className="porcentaje">70%</div>
+        </div>
         <section className='home-progreso-comments'>
           <p>Excelente trabajo en equipo 💪</p>
         </section>
