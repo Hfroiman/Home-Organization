@@ -21,7 +21,12 @@ const Members = () => {
         </div>
       </section>
       <section className='members-ranking'>
-        <div></div>
+        <div className='member-points'>
+          <p>1</p>
+          <img src="" alt="" />
+          <p>Laura</p>
+          <p>320 pts</p>
+        </div>
       </section>
     </div>
   )
