@@ -2,7 +2,7 @@ import './HomeHeader.css'
 
 const HomeHeader = () => {
   return (
-    <div>
+    <div className='HomeHeader'>
       <section className='home-welcome'>
         <h2>!Bienvenido, LAUDAA¡👋</h2>
         <h6>Resumen de tareas y actividades en casa</h6>

@@ -1,163 +1,31 @@
 .home-content {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-template-rows: 1fr 1fr 4fr;
+    grid-template-rows: 1fr 1fr 3fr;
     gap: 20px;
     height: 98vh;
     width: 81%;
     margin-left: 1vh;
 }
 
-.home-welcome {
+.HomeHeader {
     gap: 10px;
-    grid-column: span 2;
-    padding: 5%;
-    display: flex;
-    flex-direction: column;
     border-radius: 10px;
+    grid-column: span 4;
 }
 
-.home-notificaciones {
-    grid-column: span 2;
-    display: flex;
-    flex-direction: row-reverse;
+.HomeTareas {
     border-radius: 10px;
+    grid-column: span 4;
 }
 
-.home-tareas-totales {
-    background-color: rgb(209, 207, 207);
-    border-radius: 10px;
-}
-
-.home-tareas-completadas {
-    background-color: rgb(209, 207, 207);
-    border-radius: 10px;
-}
-
-.home-tareas-pendientes {
-    background-color: rgb(209, 207, 207);
-    border-radius: 10px;
-}
-
-.home-tareas-racha {
-    background-color: rgb(209, 207, 207);
-    border-radius: 10px;
-}
-
-.home-tareas-recientes {
+.HomeTareasRecientes {
     background-color: rgb(241, 238, 238);
+    border-radius: 10px;
     grid-column: span 3;
-    border-radius: 10px;
 }
 
-.home-progreso {
+.HomeProgreso {
     background-color: rgb(241, 238, 238);
     border-radius: 10px;
 }
-
-/*---------------NOTIFICACIONES -------------------/*/
-.home-notificaciones-img {
-    height: 2rem;
-}
-
-/************************  HOME TAREAS ***********************************/
-#home-tareas {
-    display: flex;
-    flex-direction: row;
-    padding: 3%;
-}
-
-.home-img-logo {
-    height: 2rem;
-}
-
-.home-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 5%;
-}
-
-/************************  HOME RECIENTES ***********************************/
-.home-tareas-recientes {
-    display: flex;
-    flex-direction: column;
-}
-
-.home-tareas-recientes-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 1vh;
-}
-
-.home-tareas-recientes-filtros {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 1vh;
-}
-
-.home-tareas-recientes-table {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1vh;
-}
-
-.my-table {
-    width: 96%;
-}
-
-/*------------ PROGRESO -------------------*/
-.home-progreso{
-    max-height: fit-content;
-}
-
-.home-progreso-title{
-    margin: 3%;
-}
-
-.contenedor-progreso {
-    position: relative;
-    height: 26vh;
-  }
-
-  .circulo-svg {
-    width: 100%;
-    height: 100%;
-    transform: rotate(-90deg); /* Para que empiece desde arriba */
-  }
-
-  .fondo-circulo {
-    fill: none;
-    stroke: #e0e0e0;
-    stroke-width: 12;
-  }
-
-  .progreso-circulo {
-    fill: none;
-    stroke: #4caf50;
-    stroke-width: 12;
-    stroke-linecap: round;
-    /* La longitud del círculo es 2 * pi * r. Para radio 60 = 377 aprox. */
-    stroke-dasharray: 377;
-    stroke-dashoffset: 113; /* 113 significa que está al 70% lleno */
-    transition: stroke-dashoffset 0.5s ease-in-out;
-  }
-
-  .porcentaje {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 5vh;
-    font-weight: bold;
-    color: #333;
-  }
-
-  .home-progreso-comments{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }

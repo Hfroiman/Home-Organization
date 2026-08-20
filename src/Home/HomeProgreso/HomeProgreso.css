@@ -1,0 +1,56 @@
+.home-progreso {
+    background-color: rgb(241, 238, 238);
+    border-radius: 10px;
+}
+
+.home-progreso{
+    max-height: fit-content;
+}
+
+.home-progreso-title{
+    margin: 3%;
+}
+
+.contenedor-progreso {
+    position: relative;
+    height: 26vh;
+  }
+
+  .circulo-svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg); /* Para que empiece desde arriba */
+  }
+
+  .fondo-circulo {
+    fill: none;
+    stroke: #e0e0e0;
+    stroke-width: 12;
+  }
+
+  .progreso-circulo {
+    fill: none;
+    stroke: #4caf50;
+    stroke-width: 12;
+    stroke-linecap: round;
+    /* La longitud del círculo es 2 * pi * r. Para radio 60 = 377 aprox. */
+    stroke-dasharray: 377;
+    stroke-dashoffset: 113; /* 113 significa que está al 70% lleno */
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
+
+  .porcentaje {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vh;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .home-progreso-comments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

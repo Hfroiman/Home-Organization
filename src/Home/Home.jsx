@@ -1,15 +1,17 @@
 import './home.css'
 import Navbar from "../Navbar/Navbar.jsx"
+import HomeHeader from './HomeHeader/HomeHeader.jsx'
+import HomeTareas from './HomeTareas/HomeTareas.jsx'
+import HomeTareasRecientes from './HomeTareasRecientes/HomeTareasRecientes.jsx'
+import HomeProgreso from './HomeProgreso/HomeProgreso.jsx'
+
 
 const Home = () => {
   return (
     <div className='home-content'>
       <HomeHeader/>
-
-      <HomeTareas/>
-
-      <HomeTareasRecientes/>
-
+      <HomeTareas />
+      <HomeTareasRecientes />
       <HomeProgreso/>
     </div>
   )

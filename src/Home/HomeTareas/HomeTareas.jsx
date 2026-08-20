@@ -1,7 +1,8 @@
+import './HomeTareas.css'
 
 const HomeTareas = () => {
   return (
-    <div>
+    <div className='HomeTareas'>
         <section className='home-tareas-totales' id='home-tareas'>
         <section className='home-img'>
           <img className='home-img-logo' src="https://w7.pngwing.com/pngs/648/943/png-transparent-instagram-logo-logo-instagram-computer-icons-camera-instagram-logo-text-trademark-magenta-thumbnail.png" alt="" />
