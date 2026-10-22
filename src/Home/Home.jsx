@@ -1,5 +1,4 @@
 import './home.css'
-import Navbar from "../Navbar/Navbar.jsx"
 import HomeHeader from './HomeHeader/HomeHeader.jsx'
 import HomeTareas from './HomeTareas/HomeTareas.jsx'
 import HomeTareasRecientes from './HomeTareasRecientes/HomeTareasRecientes.jsx'
