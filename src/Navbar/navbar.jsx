@@ -1,4 +1,5 @@
 import './navbar.css'
+import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -9,13 +10,14 @@ const Navbar = () => {
       </section>
 
       <section className='navbar-list'>
-        <button className='btn-list' type='button'>INICIO</button>
-        <button className='btn-list' type='button'>TAREAS</button>
-        <button className='btn-list' type='button'>CALENDARIO</button>
-        <button className='btn-list' type='button'>MIEMBROS</button>
-        <button className='btn-list' type='button'>RECOMPENSAS</button>
-        <button className='btn-list' type='button'>HISTORIAL</button>
-        <button className='btn-list' type='button'>CONFIGURACION</button>
+        <button className='btn-list' type='button'><NavLink className="navlink" to="/">INICIO</NavLink></button>
+        <button className='btn-list' type='button'><NavLink className="navlink" to="/Homework">TAREAS</NavLink></button>
+        <button className='btn-list' type='button'><NavLink className="navlink" to="/">CALENDARIO</NavLink></button>
+        <button className='btn-list' type='button'><NavLink className="navlink" to="/Members">MIEMBROS</NavLink></button>
+        <button className='btn-list' type='button'><NavLink className="navlink" to="/">RECOMPENSAS</NavLink></button>
+        <button className='btn-list' type='button'><NavLink className="navlink" to="/">HISTORIAL</NavLink></button>
+        <button className='btn-list' type='button'><NavLink className="navlink" to="/">CONFIGURACION</NavLink></button>
+        <button className='btn-list' type='button'><NavLink className="navlink" to="/">TAREAS</NavLink></button>
       </section>
 
       <section className='navbar-profile'>
