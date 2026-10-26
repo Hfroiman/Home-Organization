@@ -2,7 +2,7 @@ import './Homework.css'
 
 const Homework = () => {
   return (
-    <div>
+    <div className='homework-body'>
         <section className="Jobs-header">
             <div><h3>Tareas</h3></div>
             <div><button>+ Nueva tarea</button></div>
@@ -20,11 +20,12 @@ const Homework = () => {
         </section>
         
         <section className="Jobs-table">
-        <table className="mi-tabla">
+        <table className="table table-striped">
           <thead>
             <tr>
-              <th>Tareas Rendientes</th>
+              <th>Tareas Pendientes</th>
               <th>Usuarios</th>
+              <th>Puntos</th>
               <th>Estado</th>
             </tr>
           </thead>
@@ -32,11 +33,13 @@ const Homework = () => {
             <tr>
               <td>Lavar platos</td>
               <td>Carlos Pérez</td>
+              <td>10</td>
               <td>Terminado</td>
             </tr>
             <tr>
               <td>planchar</td>
               <td>Ana Gómez</td>
+              <td>12</td>
               <td>Pendiente</td>
             </tr>
           </tbody>

@@ -1,0 +1,22 @@
+.homework-body {
+    width: 165vh;
+    margin: 2rem;
+}
+/*TITULO Y BTN NUEVA TAREA*/
+.Jobs-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+/*BTONERA*/
+.Jobs-btns {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+}
+.jobs-btns-1 button{
+    margin-right: 1rem;
+}
+
+/*TABLE*/

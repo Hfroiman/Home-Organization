@@ -1,0 +1,16 @@
+.members-group-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+/* --------------CARDS ---------------*/
+.members-card{
+    margin: 1rem;
+    width: 14rem;
+    height: 13rem;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

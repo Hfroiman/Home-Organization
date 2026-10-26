@@ -1,4 +1,7 @@
-import './Members.css'
+import './Members.css';
+import MembersCards from './MembersCards/MembersCards.jsx';
+import MembersRanking from './MembersRanking/MembersRanking.jsx';
+import MemberRecompensa from './MembersRecompensa/MemberRecompensa.jsx'
 
 const Members = () => {
   return (
@@ -7,8 +10,15 @@ const Members = () => {
         <h2>Miembros de la familia</h2>
         <button>Ver ranking</button>
       </section>
-      <MembersCards />
-      <MembersRanking />
+
+      <section className='members-cards'>
+        <MembersCards />
+      </section>
+
+      <section className='members-ranking-recompensa'>
+        <MembersRanking />
+        <MemberRecompensa/>
+      </section>
     </div>
   )
 }
