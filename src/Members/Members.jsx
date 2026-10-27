@@ -17,7 +17,7 @@ const Members = () => {
 
       <section className='members-ranking-recompensa'>
         <MembersRanking />
-        <MemberRecompensa/>
+        <MemberRecompensa />
       </section>
     </div>
   )

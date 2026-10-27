@@ -12,12 +12,9 @@ const Navbar = () => {
       <section className='navbar-list'>
         <button className='btn-list' type='button'><NavLink className="navlink" to="/">INICIO</NavLink></button>
         <button className='btn-list' type='button'><NavLink className="navlink" to="/Homework">TAREAS</NavLink></button>
-        <button className='btn-list' type='button'><NavLink className="navlink" to="/">CALENDARIO</NavLink></button>
         <button className='btn-list' type='button'><NavLink className="navlink" to="/Members">MIEMBROS</NavLink></button>
-        <button className='btn-list' type='button'><NavLink className="navlink" to="/">RECOMPENSAS</NavLink></button>
         <button className='btn-list' type='button'><NavLink className="navlink" to="/">HISTORIAL</NavLink></button>
         <button className='btn-list' type='button'><NavLink className="navlink" to="/">CONFIGURACION</NavLink></button>
-        <button className='btn-list' type='button'><NavLink className="navlink" to="/">TAREAS</NavLink></button>
       </section>
 
       <section className='navbar-profile'>

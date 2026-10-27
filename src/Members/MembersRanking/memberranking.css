@@ -1,0 +1,21 @@
+.members-ranking {
+    display: flex;
+    flex-direction: column;
+}
+
+.member-points {
+    width: 105vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 1vh;
+}
+
+.form-range{
+    width: 35%;
+}
+
+.form-range-input{
+    width: 100%;
+}
