@@ -4,6 +4,7 @@ import Home from "./Home/Home.jsx"
 import Layout from './Layout/Layout.jsx'
 import Homework from './Homework/Homework.jsx'
 import Members from './Members/Members.jsx'
+import Profile from './Profile/Profile.jsx'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/" element={<Home/>} />
         <Route path='/Homework' element={<Homework/>}/>
         <Route path='/Members' element={<Members/>}/>
+        <Route path='/Profile' element={<Profile/>}/>
       </Route>
     </Routes>
   </BrowserRouter>
